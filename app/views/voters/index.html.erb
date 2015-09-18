@@ -1,0 +1,51 @@
+<div class="container">
+  <div class="well">
+    <%= link_to "New Voter", new_voter_path, remote: true, class: "btn btn-primary" %>
+  </div>
+  <div class="new-voter"></div>
+
+  <table class="table table-bordered table-striped">
+    <thead>
+      <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Address</th>
+        <th>City</th>
+        <th>State</th>
+        <th>Zip Code</th>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+    </thead>
+    <tbody class="voter-index">
+      <%= render "index" %>
+    </tbody>
+  </table>
+</div>
+<div id="voter-modal" class="modal fade"></div>
+
+<!--
+
+<div class="row">
+  <div class="col-md-11 col-md-offset-1">
+    <%= link_to new_voter_path, remote: true do %>
+      <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#newVoterModal">Add a Voter</button>
+    <% end %>
+  </div>
+</div>
+
+<div id="newVoterModal" class="modal fade" role="dialog">
+  <div class="modal-content">
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-11 col-md-offset-1">
+    <h2>Voters</h2>
+  </div>
+<div>
+<div class="row">
+  <div class="col-md-7 col-md-offset-1" id="voters"><%= render @voters %></div>
+</div>
+
+ -->

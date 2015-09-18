@@ -1,0 +1,13 @@
+<% @voters.each do |voter| %>
+  <tr>
+    <td><%= voter.first_name  %></td>
+    <td><%= voter.last_name   %></td>
+    <td><%= voter.address     %></td>
+    <td><%= voter.city        %></td>
+    <td><%= voter.state       %></td>
+    <td><%= voter.zip         %></td>
+
+    <td><%= link_to "Edit", edit_voter_path(voter), remote: true, class: "btn btn-default" %></td>
+    <td><%= link_to "Delete", voter_delete_path(voter), remote: true, class: "btn btn-danger" %></td>
+  </tr>
+<% end %>
