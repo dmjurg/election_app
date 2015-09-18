@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'jquery-tablesorter'
 gem 'will_paginate'
 gem 'responders'
 gem 'bootstrap-sass'
