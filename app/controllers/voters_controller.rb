@@ -29,6 +29,10 @@ class VotersController < ApplicationController
   end
 
   def delete
+    @voter = Voter.find(params[:voter_id])
+  end
+
+  def destroy
     @voters = Voter.all
     @voter = Voter.find(params[:id])
     @voter.destroy
