@@ -1,28 +1,14 @@
-== README
+# Voter Tracker
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Allows users to keep track of list of voters, and to add/edit/delete as needed
 
-Things you may want to cover:
+Heroku Link: https://election-dj.herokuapp.com/
 
-* Ruby version
+Technologies used:
+- jQuery
+- Tablesorter plugin
+- Faker gem
+- Bootstrap
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Next steps:
+- Add ability to search and/or filter as needed
