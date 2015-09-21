@@ -1,10 +1,8 @@
 source 'https://rubygems.org'
 
 gem 'jquery-tablesorter'
-gem 'will_paginate'
 gem 'bootstrap-sass'
 gem 'autoprefixer-rails'
-gem 'simple_form'
 gem 'faker'
 gem 'rails_12factor'
 

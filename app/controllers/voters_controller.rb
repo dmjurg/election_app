@@ -1,5 +1,5 @@
 class VotersController < ApplicationController
-  before_action :set_voter, only: [:show, :edit, :update, :destroy]
+  before_action :set_voter, only: [:show, :edit, :update, :destroy, :delete]
   def index
     @voters = Voter.all
   end
@@ -27,7 +27,6 @@ class VotersController < ApplicationController
 
   # to delete via modal
   def delete
-    @voter = Voter.find(params[:voter_id])
   end
 
   def destroy

@@ -8,6 +8,6 @@
     <td><%= voter.zip         %></td>
 
     <td><%= link_to "Edit", edit_voter_path(voter), remote: true, class: "btn btn-default" %></td>
-    <td><%= link_to "Delete", voter_delete_path(voter), remote: true, class: "btn btn-danger" %></td>
+    <td><%= link_to "Delete", delete_voter_path(voter), remote: true, class: "btn btn-danger" %></td>
   </tr>
 <% end %>

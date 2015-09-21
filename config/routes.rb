@@ -2,6 +2,6 @@ Rails.application.routes.draw do
   root 'voters#index'
 
   resources :voters do
-    get 'delete' # for delete modal
+    get 'delete', on: :member # for delete modal
   end
 end
