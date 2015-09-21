@@ -2,7 +2,7 @@ var initializeTableSorter;
 initializeTableSorter = function() {
 
   $("#myTable").tablesorter({
-    widthFixed: false,
+    widthFixed: true,
     theme: 'bootstrap',
     headerTemplate: '{content} {icon}',
     widgets: ['uitheme'],
