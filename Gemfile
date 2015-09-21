@@ -2,10 +2,10 @@ source 'https://rubygems.org'
 
 gem 'jquery-tablesorter'
 gem 'will_paginate'
-gem 'responders'
 gem 'bootstrap-sass'
 gem 'autoprefixer-rails'
 gem 'simple_form'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.1'
 # Use postgresql as the database for Active Record

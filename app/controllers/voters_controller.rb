@@ -28,6 +28,7 @@ class VotersController < ApplicationController
     @voter.update_attributes(voter_params)
   end
 
+  # to delete via modal
   def delete
     @voter = Voter.find(params[:voter_id])
   end

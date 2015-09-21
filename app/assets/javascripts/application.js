@@ -15,4 +15,9 @@
 //= require turbolinks
 //= require bootstrap
 //= require jquery-tablesorter
+//= require jquery-tablesorter/jquery.tablesorter
+//= require jquery-tablesorter/jquery.tablesorter.widgets
+//= require jquery-tablesorter/addons/pager/jquery.tablesorter.pager
+//= require jquery-tablesorter/widgets/widget-repeatheaders
+//= require jquery-tablesorter/parsers/parser-metric
 //= require_tree .

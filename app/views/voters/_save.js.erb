@@ -6,4 +6,5 @@ $("ul.errors").html("")
 <% else %>
   $(".voter-index").html("<%= escape_javascript(render 'index') %>")
   $("#voter-modal").modal("hide")
-<% end %>  
+  $('#myTable').trigger('update')
+<% end %>

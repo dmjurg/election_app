@@ -1,8 +1,15 @@
 <div class="container">
   <div class="well">
+    <h1>Voter Tracker</h1>
     <%= link_to "New Voter", new_voter_path, remote: true, class: "btn btn-primary" %>
   </div>
   <div class="new-voter"></div>
+
+  <div id="pager">
+    <button type="button" class="btn prev"><i class="icon-arrow-left glyphicon glyphicon-backward"></i></button>
+    <span class="pagedisplay"></span>
+    <button type="button" class="btn next"><i class="icon-arrow-right glyphicon glyphicon-forward"></i></button>
+  </div>
 
   <table class="table table-bordered table-striped tablesorter" id="myTable">
     <thead>
@@ -23,29 +30,3 @@
   </table>
 </div>
 <div id="voter-modal" class="modal fade"></div>
-
-<!--
-
-<div class="row">
-  <div class="col-md-11 col-md-offset-1">
-    <%= link_to new_voter_path, remote: true do %>
-      <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#newVoterModal">Add a Voter</button>
-    <% end %>
-  </div>
-</div>
-
-<div id="newVoterModal" class="modal fade" role="dialog">
-  <div class="modal-content">
-  </div>
-</div>
-
-<div class="row">
-  <div class="col-md-11 col-md-offset-1">
-    <h2>Voters</h2>
-  </div>
-<div>
-<div class="row">
-  <div class="col-md-7 col-md-offset-1" id="voters"><%= render @voters %></div>
-</div>
-
- -->
